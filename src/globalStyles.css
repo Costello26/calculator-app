@@ -1,0 +1,38 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button-dark{
+    color: #fff !important;
+    font-size: 16px !important;
+}
+
+.operators{
+    background-color: #333;
+    border-radius: 3px;
+}
+
+.operation *{
+    font-size: 1.5em !important;
+    text-align: end !important;
+}
+
+.result *{
+    text-align: end !important;
+}
+
+.inputField, .outputField{
+    margin: 2px;
+}
+
+.inputField{
+    font-size: 1.5rem;
+    overflow: hidden;
+    display: block;
+    width: 95%;
+    text-align: end;
+    outline: none;
+    border: none;
+}
